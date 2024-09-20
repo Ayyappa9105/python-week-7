@@ -1,0 +1,32 @@
+def fun(a,b):
+    print("addition=",a+b)
+    print("subtraction=",a-b)
+    print("multiplication=",a*b)
+    print("division=",a/b)
+    print("modulus=",a%b)
+print("-------------")
+fun(4,2)
+print("-------------")
+fun(3,4)
+print("-------------")
+fun(7,7)
+
+//output
+-------------
+addition= 6
+subtraction= 2
+multiplication= 8
+division= 2.0
+modulus= 0
+-------------
+addition= 7
+subtraction= -1
+multiplication= 12
+division= 0.75
+modulus= 3
+-------------
+addition= 14
+subtraction= 0
+multiplication= 49
+division= 1.0
+modulus= 0
