@@ -1,0 +1,15 @@
+def gcd(a,b) : 
+    if a % b == 0 :
+        return b
+    else :
+        return gcd(a, a%b )
+
+a = int(input("Enter a : "))
+b = int(input("Enter b : "))
+print(gcd(a, b))
+
+
+//output
+Enter a :10
+Enter b:25
+10
