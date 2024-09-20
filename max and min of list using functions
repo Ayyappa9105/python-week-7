@@ -1,0 +1,8 @@
+def list(*arg):
+   print("max is",max(arg))
+   print("min is ",min(arg))
+list(45,7,18,8,93)
+
+//output
+max is 93
+min is 7
